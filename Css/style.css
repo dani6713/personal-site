@@ -1,0 +1,132 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  line-height: 2;
+}
+
+h1 {
+  font-family: 'Parisienne', cursive;
+  font-size: 5.3rem;
+  margin: 50px auto 0 auto;
+  color: #3ca59d;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.7rem;
+  color: #3ca59d;
+  font-weight: normal;
+  padding-bottom: 20px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #01a9b4;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Poppins', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #01a9b4;
+}
+
+a:active{
+  color: #01a9b4;
+}
+
+hr {
+  border: dotted #99d8d0 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 75px auto;
+}
+
+/************************** DIV BLOCKS **************************/
+.top-container {
+  background-color: #99d8d0;
+  position: relative;
+  padding-top: 100px;
+  margin: 0;
+}
+
+.middle-container {
+  margin: 75px 0;
+}
+
+.bottom-container {
+  background-color: #99d8d0;
+  padding: 50px 0 10px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+}
+
+/************************** PARAGRAPH TAGS  **************************/
+.copy-write {
+  padding: 25px;
+}
+
+.intro {
+  width: 40%;
+  margin: auto;
+}
+
+.contact-text {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+/************************** IMAGE TAGS **************************/
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 75px
+}
+
+.code-icon {
+  width: 25%;
+  float: left;
+  margin-right: 20px;
+}
+
+.food-icon {
+  width: 25%;
+  float: right;
+  margin-left: 20px;
+}
+
+/************************** BUTTON TAGS **************************/
+
+.button {
+  font-weight: 400;
+  color: white;
+  border-radius: 20px;
+  background-color: #11999E;
+  padding: 7px 25px;
+  text-decoration: none;
+  transition: ease-in-out 0.2s;
+}
+
+.button:hover{
+  background-color: #01a9b4;
+  color: white;
+}
+
+.button:active {
+  background-color: #01a9b4;
+}
